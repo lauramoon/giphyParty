@@ -1,0 +1,12 @@
+body {
+    background-color: #333;
+    color: darkkhaki;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.giphy {
+    border: solid cornflowerblue 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
