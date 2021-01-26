@@ -6,7 +6,7 @@ const imageDiv = document.getElementById('images');
 
 async function addGiphy(term) {
     try {
-        const url = `http://api.giphy.com/v1/gifs/search?q=${term}&api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym`;
+        const url = `https://api.giphy.com/v1/gifs/search?q=${term}&api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym`;
         const res = await axios.get(url);
         // console.log(res);
         if (res.data.data.length) {
